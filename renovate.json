@@ -4,6 +4,8 @@
     "config:recommended",
     "docker:pinDigests",
     "group:allNonMajor",
-    ":automergePatch"
+    ":automergePatch",
+    ":prHourlyLimitNone",
+    ":prConcurrentLimitNone"
   ]
 }
