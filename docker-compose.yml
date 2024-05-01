@@ -2,7 +2,7 @@ version: "3.3"
 
 services:
   db:
-    image: postgres
+    image: postgres@sha256:4aea012537edfad80f98d870a36e6b90b4c09b27be7f4b4759d72db863baeebb
     volumes:
       - ./data/db:/var/lib/postgresql/data
     environment:
@@ -21,7 +21,7 @@ services:
       - migration
       - db
   migration:
-    image: pygoat/pygoat
+    image: pygoat/pygoat@sha256:26a75f7cd023a9c77158f55c54dbb405ab2b77aaf46dfb888f209735fa0d0b54
     command: python pygoat/manage.py migrate --noinput
     volumes:
       - .:/app
