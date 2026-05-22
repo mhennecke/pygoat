@@ -30,4 +30,4 @@ sqlparse==0.3.1
 urllib3==1.26.20
 Werkzeug==2.1.2
 whitenoise==6.2.0
-zipp==3.8.1
+zipp==4.1.0
