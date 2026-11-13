@@ -2,7 +2,7 @@ version: "3.3"
 
 services:
   db:
-    image: postgres@sha256:4aea012537edfad80f98d870a36e6b90b4c09b27be7f4b4759d72db863baeebb
+    image: postgres@sha256:b9f6b8ff03b62f3cfd9d9ba3fe56226a9991c79d3fb46fd46536263bf02be553
     volumes:
       - ./data/db:/var/lib/postgresql/data
     environment:
